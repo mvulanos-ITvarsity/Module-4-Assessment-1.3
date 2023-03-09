@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white
+}
+
+#left-column{
+    width: 60%;
+    float: left;
+    background-color: aqua;
+
+/*eyes & mouth resizing*/
+   div > #body {
+       width: 30px;
+    } 
+    
+/*shoes & shirts resizing*/
+    div="body1" class="resize"{
+        width: 20px;
+    } 
+    
+/*facial & hair resizing*/
+    div > #body3{
+        width: 30px;
+    }
+}
+
+#right-column img{
+    width: 230px;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+img#logo{
+    position: fixed
+    width: 150px;
+    bottom: 20px;
+    right: 10px;
+    
+}
+div > #human{
+     margin-top: 100px;
+     margin-left: 150px;
+    width: 200px;
